@@ -12,6 +12,8 @@
 		697A0A502049ADF90040927C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697A0A4E2049ADF90040927C /* Main.storyboard */; };
 		697A0A522049ADF90040927C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697A0A512049ADF90040927C /* Assets.xcassets */; };
 		697A0A552049ADF90040927C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697A0A532049ADF90040927C /* LaunchScreen.storyboard */; };
+		697A0A5D2049D6620040927C /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 697A0A5C2049D6620040927C /* Minecraft.ttf */; };
+		697A0A5F2049D90C0040927C /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 697A0A5E2049D90C0040927C /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		697A0A512049ADF90040927C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		697A0A542049ADF90040927C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		697A0A562049ADF90040927C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		697A0A5C2049D6620040927C /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		697A0A5E2049D90C0040927C /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				697A0A512049ADF90040927C /* Assets.xcassets */,
 				697A0A532049ADF90040927C /* LaunchScreen.storyboard */,
 				697A0A562049ADF90040927C /* Info.plist */,
+				697A0A5C2049D6620040927C /* Minecraft.ttf */,
+				697A0A5E2049D90C0040927C /* btn.wav */,
 			);
 			path = "funny calculator";
 			sourceTree = "<group>";
@@ -96,7 +102,7 @@
 				TargetAttributes = {
 					697A0A462049ADF80040927C = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -123,8 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697A0A5F2049D90C0040927C /* btn.wav in Resources */,
 				697A0A552049ADF90040927C /* LaunchScreen.storyboard in Resources */,
 				697A0A522049ADF90040927C /* Assets.xcassets in Resources */,
+				697A0A5D2049D6620040927C /* Minecraft.ttf in Resources */,
 				697A0A502049ADF90040927C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,10 +270,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "funny calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.farid.Mohar.funny-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,10 +284,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "funny calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.farid.Mohar.funny-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
