@@ -1,8 +1,10 @@
 # funny-calculator
 
-add a custom font 
-make a cool design 
-test stack view 
+# add a custom font 
+
+# make a cool design 
+
+# test stack view 
 
 screen 
 
